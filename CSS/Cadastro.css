@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('../img/image 4.png');
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-attachment: fixed;
+    background-position: center;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .botao {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
